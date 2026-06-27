@@ -13,6 +13,102 @@
     <meta name="description" content="Calculate the real annual cost of employee turnover in seconds. Enter team size, salary, and turnover rate to get a transparent, defensible cost breakdown." />
     <meta property="og:title" content="TurnCost — The true cost of turnover, calculated transparently in three inputs" />
     <meta property="og:description" content="Calculate the real annual cost of employee turnover in seconds. Enter team size, salary, and turnover rate to get a transparent, defensible cost breakdown." />
+
+    <!-- Structured Data: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "TurnCost — Employee Turnover Cost Calculator",
+      "applicationCategory": "employee turnover cost",
+      "operatingSystem": "Web",
+      "description": "Calculate the real annual cost of employee turnover in seconds. Enter team size, salary, and turnover rate to get a transparent, defensible cost breakdown with visible formulas.",
+      "url": "https://9ffe1c15-7448-4f0a-ad5e-802af5f5811b.vercel.app",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Three-input turnover cost calculator",
+        "Itemized cost breakdown with visible formulas",
+        "ROI retention investment modeler"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you calculate the cost of employee turnover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To calculate the cost of employee turnover, multiply your team size by the turnover rate to get the number of employees replaced annually. Then multiply that number by the average salary and factor in four cost categories: recruitment (21% of salary), onboarding and training (11% of salary), lost productivity during ramp-up (4% per month for 3 months), and knowledge drain (15% of salary). TurnCost does this instantly with three inputs: team size, average salary, and annual turnover rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the average cost of replacing an employee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average cost of replacing an employee typically ranges from 50% to 200% of their annual salary depending on the role. Using established industry factors from SHRM, Gallup, and the Center for American Progress, TurnCost calculates this as: recruitment (21% of salary), onboarding (11%), lost productivity (12% for a 3-month ramp), and knowledge drain (15%), totaling approximately 59% of salary per employee replaced. For a $90,000 salary, that is about $53,100 per departure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What factors are included in employee turnover cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employee turnover cost includes four main categories: recruitment costs (job ads, agency fees, interview time at 21% of salary), onboarding and training costs (11% of salary), lost productivity during the ramp-up period (4% of monthly salary for 3 months), and knowledge drain from departing institutional expertise (15% of salary). Each category uses transparent, research-backed factors so you can defend the numbers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much could my company save by reducing turnover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The savings from reducing turnover equal your total annual turnover cost multiplied by the percentage of turnover you eliminate. TurnCost's ROI modeler lets you enter a retention program budget and instantly shows the break-even turnover reduction needed and the projected net savings, so you can see exactly whether your investment pays for itself."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: HowTo -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Calculate Employee Turnover Cost",
+      "description": "Calculate the true annual cost of employee turnover in three simple steps using TurnCost's transparent formula-based calculator.",
+      "totalTime": "PT1M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Enter your team size",
+          "text": "Input the total number of employees on your team. For example, a team of 100 people."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Enter the average annual salary",
+          "text": "Input the average annual salary across your team. For example, $90,000 per employee."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Enter your annual turnover rate",
+          "text": "Input your team's annual turnover rate as a percentage. For example, 20% means 20 out of 100 employees leave each year. The calculator instantly produces a full cost breakdown across recruitment, onboarding, lost productivity, and knowledge drain — each with its visible formula."
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

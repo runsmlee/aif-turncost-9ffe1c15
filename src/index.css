@@ -49,6 +49,19 @@
 }
 
 @layer utilities {
+  /* Screen-reader-only text for accessibility */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
   /* Animated gradient text for hero accents */
   .text-gradient-brand {
     background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);

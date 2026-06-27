@@ -50,8 +50,10 @@ export function App() {
                 <span className="text-white font-bold text-sm tracking-tight">TC</span>
               </div>
               <div className="flex items-baseline gap-1">
-                <h1 className="text-lg font-bold text-gray-900 tracking-tight">TurnCost</h1>
-                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider hidden sm:inline">Beta</span>
+                <h1 className="text-lg font-bold text-gray-900 tracking-tight">
+                  TurnCost
+                  <span className="sr-only"> — Employee Turnover Cost Calculator</span>
+                </h1>
               </div>
             </div>
             <div className="flex items-center gap-3">

@@ -36,7 +36,7 @@ export function RetentionROI({
   const isPositive = netSavings >= 0;
 
   return (
-    <section data-testid="retention-roi" className="mt-10">
+    <section data-testid="retention-roi" aria-label="Retention investment ROI calculator" className="mt-10">
       <div className="rounded-2xl border border-gray-200/80 bg-white p-6 sm:p-7 shadow-card">
         <div className="flex items-center gap-2 mb-1">
           <div className="w-1 h-5 rounded-full bg-gray-300" />
